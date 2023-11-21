@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4803a4f-1ffb-435e-ad39-3bf01874b584" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other-challenges/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueensPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueensProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searching-challenges/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searching-challenges/src/main/java/org/doomsday/searching/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searching-challenges/src/test/java/searching/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting-challenges/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting-challenges/src/main/java/org/doomsday/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting-challenges/src/test/java/org/doomsday/sorting/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/doomsday/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-challenges/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-challenges/src/main/java/org/doomsday/string/PalindromeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-challenges/src/main/java/org/doomsday/string/PalindromeCheckerUsingForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-challenges/src/test/java/string/PalindromeCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-challenges/src/test/java/string/PalindromeCheckerUsingForLoopTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YIdaDhP6AH4CoipvONmAqRehfX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="string" />
+      <recent name="searching" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PalindromeCheckerUsingForLoopTest">
+    <configuration name="PalindromeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.doomsday.string.PalindromeDemo" />
+      <module name="string-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.doomsday.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string" />
+      <option name="MAIN_CLASS_NAME" value="string.PalindromeCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeCheckerTest.whenPalindromeWithEmptySpace_returnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string" />
+      <option name="MAIN_CLASS_NAME" value="string.PalindromeCheckerTest" />
+      <option name="METHOD_NAME" value="whenPalindromeWithEmptySpace_returnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeCheckerUsingForLoopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string" />
+      <option name="MAIN_CLASS_NAME" value="string.PalindromeCheckerUsingForLoopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeCheckerUsingForLoopTest.whenPalindrome_returnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string" />
+      <option name="MAIN_CLASS_NAME" value="string.PalindromeCheckerUsingForLoopTest" />
+      <option name="METHOD_NAME" value="whenPalindrome_returnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PalindromeCheckerUsingForLoopTest" />
+        <item itemvalue="JUnit.PalindromeCheckerUsingForLoopTest.whenPalindrome_returnTrue" />
+        <item itemvalue="Application.PalindromeDemo" />
+        <item itemvalue="JUnit.PalindromeCheckerTest" />
+        <item itemvalue="JUnit.PalindromeCheckerTest.whenPalindromeWithEmptySpace_returnTrue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4803a4f-1ffb-435e-ad39-3bf01874b584" name="Changes" comment="" />
+      <created>1700217092185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700217092185</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueensProblem.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueens.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
