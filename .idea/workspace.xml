@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4803a4f-1ffb-435e-ad39-3bf01874b584" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-challenges/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueensPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueensProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searching-challenges/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searching-challenges/src/main/java/org/doomsday/searching/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searching-challenges/src/test/java/searching/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting-challenges/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting-challenges/src/main/java/org/doomsday/sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting-challenges/src/test/java/org/doomsday/sorting/BubbleSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/doomsday/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/main/java/org/doomsday/string/PalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/main/java/org/doomsday/string/PalindromeCheckerUsingForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/test/java/string/PalindromeCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/test/java/string/PalindromeCheckerUsingForLoopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +58,7 @@
       <recent name="searching" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeCheckerUsingForLoopTest">
+  <component name="RunManager" selected="JUnit.BinarySearchTest.whenBinarySearchRecursive_returnSearchedResult">
     <configuration name="PalindromeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.doomsday.string.PalindromeDemo" />
       <module name="string-challenges" />
@@ -91,6 +68,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest.whenBinarySearchRecursive_returnSearchedResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="searching-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searching" />
+      <option name="MAIN_CLASS_NAME" value="searching.BinarySearchTest" />
+      <option name="METHOD_NAME" value="whenBinarySearchRecursive_returnSearchedResult" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,22 +99,6 @@
       <option name="PACKAGE_NAME" value="string" />
       <option name="MAIN_CLASS_NAME" value="string.PalindromeCheckerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeCheckerTest.whenPalindromeWithEmptySpace_returnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="string-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="string" />
-      <option name="MAIN_CLASS_NAME" value="string.PalindromeCheckerTest" />
-      <option name="METHOD_NAME" value="whenPalindromeWithEmptySpace_returnTrue" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTest.whenBinarySearchRecursive_returnSearchedResult" />
         <item itemvalue="JUnit.PalindromeCheckerUsingForLoopTest" />
         <item itemvalue="JUnit.PalindromeCheckerUsingForLoopTest.whenPalindrome_returnTrue" />
         <item itemvalue="Application.PalindromeDemo" />
         <item itemvalue="JUnit.PalindromeCheckerTest" />
-        <item itemvalue="JUnit.PalindromeCheckerTest.whenPalindromeWithEmptySpace_returnTrue" />
       </list>
     </recent_temporary>
   </component>
