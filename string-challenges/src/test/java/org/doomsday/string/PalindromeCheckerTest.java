@@ -1,4 +1,4 @@
-package string;
+package org.doomsday.string;
 
 import org.doomsday.string.PalindromeChecker;
 import org.junit.jupiter.api.BeforeEach;
