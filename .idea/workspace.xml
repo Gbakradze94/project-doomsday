@@ -5,44 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4803a4f-1ffb-435e-ad39-3bf01874b584" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data-structure-challenges/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure-challenges/src/main/java/com/doomsday/datastructures/hashmap/NutsAndBolts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure-challenges/src/main/java/com/doomsday/datastructures/implementations/map/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure-challenges/src/main/java/com/doomsday/datastructures/implementations/map/MyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects-immutability-switch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects-immutability-switch/src/main/java/org/doomsday/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects-immutability-switch/src/main/java/org/doomsday/immutable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects-immutability-switch/src/main/java/org/doomsday/immutable/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects-immutability-switch/src/main/java/org/doomsday/passreturnmutable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects-immutability-switch/src/main/java/org/doomsday/passreturnmutable/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects-immutability-switch/src/main/java/org/doomsday/passreturnmutable/Radius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/HandsOn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/HandsOn2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting-challenges/src/main/java/org/doomsday/sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting-challenges/src/main/java/org/doomsday/sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/main/java/org/doomsday/string/CountDuplicateChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/main/java/org/doomsday/string/CountDuplicateCharsIntStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/main/java/org/doomsday/string/FindFirstNonRepeatedChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/main/java/org/doomsday/string/ReverseLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/test/java/org/doomsday/string/CountDuplicateCharsIntStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/test/java/org/doomsday/string/CountDuplicateCharsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-challenges/src/test/java/org/doomsday/string/ReverseLettersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/factory-pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/factory-pattern/src/main/java/org/example/Cantaloupe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/factory-pattern/src/main/java/org/example/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/factory-pattern/src/main/java/org/example/Gac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/factory-pattern/src/main/java/org/example/Hemi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/factory-pattern/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/factory-pattern/src/main/java/org/example/Melon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/factory-pattern/src/main/java/org/example/MelonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/factory-pattern/src/main/java/org/example/TriFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/strategy-pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/strategy-pattern/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/strategy-pattern/src/main/java/org/example/NumberRemover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/strategy-pattern/src/main/java/org/example/RemoveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/strategy-pattern/src/main/java/org/example/Remover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/strategy-pattern/src/main/java/org/example/WhitespacesRemover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matrix-challenges/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matrix-challenges/src/main/java/org/doomsday/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matrix-challenges/src/main/java/org/doomsday/MatrixPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matrix-challenges/src/main/java/org/doomsday/Transpose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotate-matrix/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotate-matrix/src/main/java/org/example/RotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searching-challenges/src/main/java/org/doomsday/searching/HandsOn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54bb01afa39f3248d0adbcfa751072b642c89266" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3a513b298c29b548ad6773ecf2b275a8a46ebd3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3a513b298c29b548ad6773ecf2b275a8a46ebd3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6b0b7676991a5205e8e1e8c14823da34db2a8e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/4/54bb01afa39f3248d0adbcfa751072b642c89266" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f6b0b7676991a5205e8e1e8c14823da34db2a8e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c700a36f3a4b262e43d56d469b75e8060647eb3b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3a513b298c29b548ad6773ecf2b275a8a46ebd3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c700a36f3a4b262e43d56d469b75e8060647eb3b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f3a513b298c29b548ad6773ecf2b275a8a46ebd3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueensPractice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueensProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-challenges/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/HandsOn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other-challenges/src/main/java/org/example/NQueens.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searching-challenges/src/main/java/org/doomsday/searching/BinarySearchHandsOn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string-challenges/src/test/java/string/PalindromeCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/string-challenges/src/test/java/org/doomsday/string/PalindromeCheckerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string-challenges/src/test/java/string/PalindromeCheckerUsingForLoopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/string-challenges/src/test/java/org/doomsday/string/PalindromeCheckerUsingForLoopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -109,13 +106,13 @@
       <recent name="searching" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest.whenBubbleSortWithForLoop_shouldReturnSorted">
-    <configuration name="HandsOn2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HandsOn2" />
-      <module name="other-challenges" />
+  <component name="RunManager" selected="JUnit.BinarySearchTest.whenBinarySearchRecursive_returnSearchedResult">
+    <configuration name="HandsOn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.doomsday.searching.HandsOn" />
+      <module name="searching-challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.doomsday.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,41 +120,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NutsAndBolts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doomsday.datastructures.hashmap.NutsAndBolts" />
-      <module name="data-structure-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.doomsday.datastructures.hashmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.doomsday.datastructures.implementations.map.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.doomsday.datastructures.implementations.map.Main" />
-      <module name="data-structure-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.doomsday.datastructures.implementations.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="other-challenges" />
+      <module name="factory-pattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="rotate-matrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest.whenBinarySearchRecursive_returnSearchedResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="searching-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searching" />
+      <option name="MAIN_CLASS_NAME" value="searching.BinarySearchTest" />
+      <option name="METHOD_NAME" value="whenBinarySearchRecursive_returnSearchedResult" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTest.whenBinarySearchRecursive_returnSearchedResult" />
+        <item itemvalue="Application.HandsOn" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BubbleSortTest.whenBubbleSortWithForLoop_shouldReturnSorted" />
-        <item itemvalue="Application.NutsAndBolts" />
-        <item itemvalue="Application.com.doomsday.datastructures.implementations.map.Main" />
-        <item itemvalue="Application.HandsOn2" />
-        <item itemvalue="Application.org.example.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -218,14 +218,10 @@
           <line>58</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/other-challenges/src/main/java/org/example/HandsOn2.java</url>
-          <line>16</line>
-          <properties class="org.example.HandsOn2" method="solveNQueens">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="18" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/searching-challenges/src/main/java/org/doomsday/searching/BinarySearch.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
