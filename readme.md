@@ -1,0 +1,1 @@
+This project is designed to help Java developers of all levels prepare for successful job interviews
