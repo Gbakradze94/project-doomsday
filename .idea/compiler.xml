@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="matrices" />
         <module name="strings" />
+        <module name="maps" />
         <module name="java21" />
       </profile>
     </annotationProcessing>
