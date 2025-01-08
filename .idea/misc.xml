@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/matrices/pom.xml" />
         <option value="$PROJECT_DIR$/challenges/strings/pom.xml" />
         <option value="$PROJECT_DIR$/challenges/matrices/pom.xml" />
+        <option value="$PROJECT_DIR$/maps/pom.xml" />
+        <option value="$PROJECT_DIR$/collections/maps/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
