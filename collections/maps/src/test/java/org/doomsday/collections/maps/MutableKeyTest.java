@@ -10,16 +10,15 @@ class MutableKeyTest {
 
     private Student john = new Student(1, "John");
     private final HashMap<Student, Integer> grades = new HashMap<>();
-    private final MutableKey mutableKey = new MutableKey(grades);
 
     @Test
     void testPutGradeByStudent() {
-        mutableKey.putGrade(john, 2);
-        assertEquals(2, mutableKey.getGrades().get(john));
+        grades.put(john, 2);
+        assertEquals(2, grades.get(john));
     }
 
     @Test
-    void testPutAnotherGradeForTheSameKeyGetsDuplicated() {
+    void testMutableKeyPropertyValueChange_failsToLookUpTheKey() {
         grades.put(john, 3);
         grades.put(john, 4);
         john.setName("Mary");
