@@ -10,6 +10,7 @@ class MutableKeyTest {
 
     private Student john = new Student(1, "John");
     private final HashMap<Student, Integer> grades = new HashMap<>();
+    private final HashMap<String, String> people = new HashMap<>();
 
     @Test
     void testPutGradeByStudent() {
@@ -23,6 +24,19 @@ class MutableKeyTest {
         grades.put(john, 4);
         john.setName("Mary");
         assertNotEquals(4, grades.get(john));
+    }
+
+    @Test
+    void testImmutableKeyInHashMapWorks() {
+        String name = "Mark";
+        String lastName = "Johnson";
+
+        people.put(name, lastName);
+
+        name = "James";
+
+
+        assertEquals("Johnson", people.get("Mark"));
     }
 
 }
