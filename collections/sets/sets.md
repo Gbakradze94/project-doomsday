@@ -1,7 +1,7 @@
 You need to use Set data structure when you do not
 want to allow duplicate entries. For example, you need
 to buy different ingredients to bake some cookies.
-You need to track the ingredients you have purchased and
+You need to track the ingredients you have purchased, and
 you need to avoid buying duplicate items, but also ensure you
 get all required ingredients. As you purchase an ingredient, 
 you remove it from the set. If someone suggests buying the
@@ -71,9 +71,18 @@ each level, so it will be:
 2<sup>h + 1</sup> = n + 1 => log<sub>2</sub>(n+1) <br/>
 => <br/>
 h = log<sub>2</sub>(n+1) - 1
+</div>
+</div>
 
 Thus, the height - _h_ grows logarithmically with n. 
 This analysis is the reason, why
 we come to the conclusion that the time complexity of adding an element and finding the item
 in a TreeSet is O(log n). Because we have to go and navigate through
 the balanced binary tree as shown above.
+
+If you create a HashSet of some objects, let's say
+Integers and you try to add the same element twice, it
+will only save the element once, without duplication.
+<br/>
+setOfIntegers.add(7); <br/>
+setOfIntegers.add(7);
