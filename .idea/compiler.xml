@@ -9,6 +9,7 @@
         <module name="matrices" />
         <module name="strings" />
         <module name="maps" />
+        <module name="sets" />
         <module name="java21" />
       </profile>
     </annotationProcessing>
