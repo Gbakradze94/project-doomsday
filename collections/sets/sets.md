@@ -8,6 +8,7 @@ you remove it from the set. If someone suggests buying the
 ingredient you've already purchased, you do not
 add it again, because sets do not allow duplicates.
 ![img.png](set-example.png)
+<br/>
 Popular Set implementations are: HashSet and TreeSet.
 HashSet stores the elements in a hash table, so that
 the keys are a hash and the values are the Objects. It
@@ -84,5 +85,21 @@ If you create a HashSet of some objects, let's say
 Integers and you try to add the same element twice, it
 will only save the element once, without duplication.
 <br/>
-setOfIntegers.add(7); <br/>
+```
 setOfIntegers.add(7);
+setOfIntegers.add(7);
+```
+
+If you need a set, but at the same time you want 
+to maintain insertion order for the entries, then
+there is LinkedHashSet implementation. It allows us
+to keep track of the order of set elements. But
+unlike TreeSet, it is not sorted.
+
+| Feature        | HashSet                      | TreeSet                                   | LinkedHashSet                |
+|----------------|------------------------------|-------------------------------------------|------------------------------|
+| Ordering       | Unordered                    | Sorted (Natural order <br/>or comparator) | Insertion order              |
+| Null Elements  | Allows one **null** element  | Does not allow **null** elements          | Allows one **null** element  |
+| Use Case       | When ordering doesn't matter | When sorted order is required             | When insertion order matters | 
+| Implementation | Hashtable                    | Red-black tree                            | Hashtable with a linked list |
+
