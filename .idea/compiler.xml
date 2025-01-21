@@ -14,7 +14,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java21" target="21" />
+      <module name="matrices" target="21" />
       <module name="string-challenges" target="21" />
+      <module name="strings" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
