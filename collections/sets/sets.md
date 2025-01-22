@@ -10,16 +10,18 @@ add it again, because sets do not allow duplicates.
 ![img.png](set-example.png)
 <br/>
 Popular Set implementations are: HashSet and TreeSet.
-HashSet stores the elements in a hash table, so that
-the keys are a hash and the values are the Objects. It
-uses the hashCode() method of the objects to retrieve them
-more efficiently.
-In terms of time complexity, main advantage of HashSet is
+HashSet internally uses a HashMap to store its elements. Each element in 
+the HashSet is stored as a key in the underlying HashMap, and a dummy value as a constant
+value (commonly the value "PRESENT") is used to represent the presence of the key.
+The HashSet relies on the hashCode() method of its elements to calculate the hash, 
+which determines the bucket in the HashMap where the element is stored.
+Because of this design, in terms of time complexity, main advantage of HashSet is
 that adding an element or checking if the element exists
-inside the set both have constant times O(1). This is
-because of Hashtable usage. Once the has is calculated,
-the corresponding value will be retrieved in constant time,
-without any iterations or lookups.
+inside the set both have on average constant time O(1). However, in cases of
+hash collisions, there may be additional lookups within the bucket,
+which can degrade performance to O(n) or O (log n) if using Java 8the version 
+and onwards. But the hashCode() method is implemented in such a way to avoid collisions
+as much as possible.
 
 Another popular Set implementation is TreeSet. It stores 
 its elements in a sorted tree structure. Its main benefit
@@ -90,16 +92,16 @@ setOfIntegers.add(7);
 setOfIntegers.add(7);
 ```
 
-If you need a set, but at the same time you want 
-to maintain insertion order for the entries, then
-there is LinkedHashSet implementation. It allows us
-to keep track of the order of set elements. But
-unlike TreeSet, it is not sorted.
+If you need a Set implementation that maintains the insertion and retrieval order of elements,
+you can use **LinkedHashSet**. It ensures that elements are iterated in the order they were 
+added, thanks to its internal use of a HashMap with a doubly linked list to track insertion
+order. Unlike TreeSet, however, LinkedHashSet does not sort its elements—it only preserves
+their insertion order.
 
-| Feature        | HashSet                      | TreeSet                                   | LinkedHashSet                |
-|----------------|------------------------------|-------------------------------------------|------------------------------|
-| Ordering       | Unordered                    | Sorted (Natural order <br/>or comparator) | Insertion order              |
-| Null Elements  | Allows one **null** element  | Does not allow **null** elements          | Allows one **null** element  |
-| Use Case       | When ordering doesn't matter | When sorted order is required             | When insertion order matters | 
-| Implementation | Hashtable                    | Red-black tree                            | Hashtable with a linked list |
+| Feature        | HashSet                      | TreeSet                                   | LinkedHashSet                     |
+|----------------|------------------------------|-------------------------------------------|-----------------------------------|
+| Ordering       | Unordered                    | Sorted (Natural order <br/>or comparator) | Insertion order                   |
+| Null Elements  | Allows one **null** element  | Does not allow **null** elements          | Allows one **null** element       |
+| Use Case       | When ordering doesn't matter | When sorted order is required             | When insertion order matters      | 
+| Implementation | HashMap                      | Backed by red-black tree (TreeMap)        | HashMap with a doubly-linked list |
 
