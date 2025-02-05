@@ -1,6 +1,11 @@
 ## Map
 Map is a data structure that stores elements as key-value pairs, where each key is unique
-and is used to access its associated value. In java, there is a Map interface with its 
+and is used to access its associated value.
+<div style="text-align: center;">
+    <img src="img.png" width="637" height="432"  alt="map-example-table"/>
+</div>
+<br/>
+In java, there is a Map interface with its 
 implementation classes. Map noes not belong to Collection interface hierarchy, 
 it does not extend it, but still is considered as a part of Java
 collections framework, as its elements can be manipulated, added, removed, modified, 
@@ -76,6 +81,12 @@ It is an old implementation, and does not allow null keys or values.
 
 ConcurrentHashMap is modern and highly optimized alternative
 of Hashtable. It is used when you need concurrent access.
+
+There is **WeakHashMap** implementation, which is used store object references in such a way 
+that they can be garbage collected when no strong references to the keys exist,
+and **IdentityHashMap** which is for handling object identity, as it is
+storing the keys by comparing with '==' instead of equals() method.
+
 
 https://www.geeksforgeeks.org/map-interface-java-examples/ 
 
