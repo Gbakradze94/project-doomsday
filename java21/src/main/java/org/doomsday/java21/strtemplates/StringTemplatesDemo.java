@@ -1,6 +1,4 @@
-package org.doomsday.java21;
-
-import static java.lang.StringTemplate.STR;
+package org.doomsday.java21.strtemplates;
 
 public class StringTemplatesDemo {
     Product product = new Product(1L, "IPhone");

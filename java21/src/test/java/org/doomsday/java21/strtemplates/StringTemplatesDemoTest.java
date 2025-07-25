@@ -1,4 +1,4 @@
-package org.doomsday.java21;
+package org.doomsday.java21.strtemplates;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
