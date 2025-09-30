@@ -30,4 +30,5 @@ public class NullPointerExceptionDemo {
         Array array = null;
         System.out.println(Array.getLength(array));
     }
+    AutoCloseable
 }
