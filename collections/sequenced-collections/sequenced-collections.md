@@ -17,3 +17,7 @@ encounter order, while LinkedHashSet and SortedSet did.
 Given the lack of a collection type with a defined encounter order, there was no uniform set
 of operations to respect encounter order. While there were operations that respect encounter
 order, they were not uniform.
+
+### Solution
+JDK 21 introduced three new interfaced to represent collections with a 
+defined encounter order:
