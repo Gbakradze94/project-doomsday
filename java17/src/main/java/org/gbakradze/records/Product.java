@@ -1,4 +1,4 @@
-package org.gbakradze;
+package org.gbakradze.records;
 
 import java.math.BigDecimal;
 

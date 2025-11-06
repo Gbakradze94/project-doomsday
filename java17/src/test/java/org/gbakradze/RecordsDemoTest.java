@@ -1,6 +1,7 @@
 package org.gbakradze;
 
 
+import org.gbakradze.records.RecordsDemo;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
